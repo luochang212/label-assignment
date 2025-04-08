@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.vscode
+.pytest_cache
+.nox
+.ipynb_checkpoints
+__pycache__
+
+archived/*
+model/*
+runs/*
+data/*
+
+all.ipynb
