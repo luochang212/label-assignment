@@ -17,8 +17,8 @@ from contextlib import asynccontextmanager
 # 配置参数
 BATCH_SIZE = 8
 MODEL_PATH = '../model/blip2-opt-2.7b'
-# DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-DEVICE = "cpu"
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# DEVICE = "cpu"
 
 
 models = {}
